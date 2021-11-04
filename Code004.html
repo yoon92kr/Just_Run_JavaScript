@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
         
-    <script>
-        var test = document.write(4*5);
 
-    </script>
 </head>
 <body>
     
-    <button onclick="test" > 버튼을 누르면 test 메소드가 시행됩니다</button>
+    <button onclick=document.write(4*5) > 버튼을 누르면 test 메소드가 시행됩니다</button>
+    <script>
+        document.write("hello!")
+    </script>
+
 </body>
 </html>
